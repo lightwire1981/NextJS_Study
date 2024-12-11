@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Home() {
     let name = 'lightwire'
     let url = 'https://www.google.com'
