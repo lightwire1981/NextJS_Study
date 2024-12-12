@@ -12,7 +12,7 @@ export default function Home() {
             <h4 className={"Title"}>Products</h4>
             {
                 products.map((args, index)=>{
-                    console.log(index)
+                    // console.log(index)
                     return (
                         <div className="food" key={index}>
                             {/*최적화 이미지 라이브러리 Image 사용*/}
