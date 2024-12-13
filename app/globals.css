@@ -41,5 +41,19 @@ body {
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid grey;
-    line-height: 0px;
+    line-height: 0;
+}
+
+.Div-Main-Notfound {
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.H-Notfound-Msg {
+    font-size: 2em;
+    text-align: center;
+    color: red;
 }
