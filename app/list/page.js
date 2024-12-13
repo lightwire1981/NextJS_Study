@@ -2,7 +2,6 @@ import Image from "next/image" //최적화된 이미지를 넣기 위한 선처�
 import TestImage0 from '/public/images/food0.png'
 import TestImage1 from '/public/images/food1.png'
 import TestImage2 from '/public/images/food2.png'
-import Navigation from "@/components/navigation";
 
 export default function Home() {
 
@@ -10,7 +9,6 @@ export default function Home() {
     let imgSrc = [TestImage0, TestImage1, TestImage2]
     return (
         <div>
-            <Navigation />
             <h4 className={"Title"}>Products</h4>
             {
                 products.map((args, index)=>{
@@ -24,13 +22,6 @@ export default function Home() {
                     )
                 })
             }
-
-            {/*<div className="food">*/}
-            {/*<h4>{products[1]} $20</h4>*/}
-            {/*</div>*/}
-            {/*<div className="food">*/}
-            {/*    <h4>{products[2]} $40</h4>*/}
-            {/*</div>*/}
         </div>
     )
 }
